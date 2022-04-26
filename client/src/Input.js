@@ -5,6 +5,8 @@ import { io } from 'socket.io-client'
 
 
 const Socket = io('https://app.chat.vicokeke.me')
+//replace url with path to your backend
+
 
 const Input = (props) => {
    

@@ -7,6 +7,10 @@ import { useSelector,useDispatch } from 'react-redux'
 import Chats from './Chats'
 
 const socket = io('https://app.chat.vicokeke.me')
+// replace this url with path to your backend
+
+
+
      socket.on('connect', ()=>{
       let username = localStorage.getItem("username");
       if(!username || username == null){
