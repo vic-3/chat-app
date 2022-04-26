@@ -1,0 +1,26 @@
+.chat{
+  border-radius: 10px;
+  border:0.5px solid #c9cbcd;
+  padding: 5px;
+  
+}
+
+.my-text{
+  background-color: whitesmoke;
+  color: black;
+  margin-left: auto;  
+  margin-right: 5px;
+}
+
+.received-text{
+  
+  background-color: #0a58ca;
+  color: whitesmoke; 
+}
+.small-font{
+  font-size: 11px;
+  height: auto;
+}
+ .form-control:focus, .form-control:active, .btn:active, .btn:focus{
+   box-shadow: none;
+ }
